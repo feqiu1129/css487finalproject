@@ -1,0 +1,8 @@
+dataset: oxford
+imageset: boat, graf
+images: img1.ppm, img2.ppm
+homographies: H1to2p.txt
+descriptors: CHoNI, CSIFT, CSPIN, HoNC, HoNI, HoWH, OpponentSIFT, RGBSIFT, RGSIFT, SPIN, SIFT, HoNC+SIFT, RGBSIFT+HoNC+HoWH+HoNI
+extractor: SURF
+save: false
+display: false

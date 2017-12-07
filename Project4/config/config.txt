@@ -1,0 +1,8 @@
+dataset: illumination-color
+imageset: 5, 6, 10, 11
+images: 5_i110.png, 5_i120.png
+homographies: illumination-homography.txt
+descriptors: SIFT, RGBSIFT, PSIFT
+extractor: SURF
+save: false
+display: false
