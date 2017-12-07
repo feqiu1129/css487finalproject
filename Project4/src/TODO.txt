@@ -1,0 +1,28 @@
+Todo lists
+
+Clark:
+	Look at different data sets - see also Fisher et al preprint
+	Reading about previous work
+		Also Tombone's blog looks pretty interesting
+	Maybe:
+		Implement/test hue histogram with one spatial bin and additional hue bins - van de Weijer uses 37 
+	
+
+Siqi:
+	Implement classification using bag-of-words
+
+Sam:
+	Set up testing on ALOI data set (illumination)
+
+		
+Longer term:
+	Compare against deepdesc: github.com/etruls/deepdesc-release
+	Need more data sets - explore ImageNet http://www.image-net.org/
+	More descriptor variations? Prioritize these:
+		Meta: DSP-SIFT!
+		Color: rgb (2d hist), color angles (see van de Weijer), hueSIFT?, moment invariants, OpponentHist?
+		Texture: Small images (color/grey), RIFT
+		Shape: GLOH, Shape contexts, Ferrari paper on Contour Segment Networks
+	Try using descriptors independently and combining later (rather than stacking)
+	Implement classification using new descriptors
+	Other interesting ways to combine descriptors (subspace clustering? machine learning?)
